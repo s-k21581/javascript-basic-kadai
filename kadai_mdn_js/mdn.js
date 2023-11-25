@@ -1,7 +1,7 @@
-const Name = new Date(2023, 8, 22);
+const Today = new Date(2023,11,25);
 
-let year = Name.getFullYear();
-let month = Name.getMonth();
-let day = Name.getDay();
+const year = Today.getFullYear();
+const month = Today.getMonth();
+const day = Today.getDate();
 
 console.log(year+'年', month+'月', day+'日');
