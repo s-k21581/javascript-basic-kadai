@@ -1,7 +1,7 @@
-const Today = new Date(2023,11,25);
+const Today = new Date();
 
 const year = Today.getFullYear();
-const month = Today.getMonth();
+const month = Today.getMonth()+1;
 const day = Today.getDate();
 
 console.log(year+'年', month+'月', day+'日');
